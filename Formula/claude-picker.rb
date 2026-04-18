@@ -1,25 +1,25 @@
 class ClaudePicker < Formula
   desc "Terminal session manager for Claude Code — browse, preview, and resume sessions with per-model cost tracking."
   homepage "https://github.com/anshul-garg27/claude-picker"
-  version "0.4.0"
+  version "0.4.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.0/claude-picker-aarch64-apple-darwin.tar.xz"
-      sha256 "b08c9128ec6f61857006d01b6d6da954b673af9bfc1db536b2afe8d61f852bb6"
+      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.1/claude-picker-aarch64-apple-darwin.tar.xz"
+      sha256 "9330a6181884ce61066e620cb3262d8f6fc07b23b8f804d0ec44f45c5c808356"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.0/claude-picker-x86_64-apple-darwin.tar.xz"
-      sha256 "93f094723de67934a988daf142dbc0b8f613a7f93d64d275a0e4c35babca390d"
+      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.1/claude-picker-x86_64-apple-darwin.tar.xz"
+      sha256 "c69d7b0cad33706671e89c2569e0133fa47f34fa29de0a40ed3ab753e7b6ec0f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.0/claude-picker-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "8598dfbff77eb266665ff1308a9959969c04d1c7caf8ed0f7ce90b2b2cc59095"
+      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.1/claude-picker-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "db520e202bb0656f9ca78bd2cf5bc5910b506a5615be602793e2a354a17e75d9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.0/claude-picker-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e7eb1135b63169705ed9db3a0a9ac309af7adc90ea846dddade458f68030a8b6"
+      url "https://github.com/anshul-garg27/claude-picker/releases/download/v0.4.1/claude-picker-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "44de0f0ef3e9dd2a04ce513d493cd7ac1a046f77e87ef68af82b5549f6117159"
     end
   end
   license "MIT"
